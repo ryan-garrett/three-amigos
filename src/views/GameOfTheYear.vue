@@ -1,14 +1,14 @@
 <template>
-  <div class="home">
-    <h1>Main Page</h1>
+  <div class="goty">
+    <h1>Game Of The Year Page</h1>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  components: {
+  name: 'GOTY',
+  props: {
+    msg: String
   }
 }
 </script>

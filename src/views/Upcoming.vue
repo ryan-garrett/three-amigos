@@ -1,14 +1,14 @@
 <template>
-  <div class="home">
-    <h1>Main Page</h1>
+  <div class="reviews">
+    <h1>Upcoming Page</h1>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  components: {
+  name: 'Upcoming',
+  props: {
+    msg: String
   }
 }
 </script>
